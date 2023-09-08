@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+    'mewah-core'
+]
+
+[workspace.dependencies]
+
+[profile.release]
+lto = "thin"
+
+[profile.dev]
+opt-level = 2
